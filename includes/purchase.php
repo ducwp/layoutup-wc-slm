@@ -66,8 +66,6 @@ function wc_slm_create_license_keys($order_id)
     // Get an array of items/products within this order
     $items = $_order->get_items();
 
-
-
     $i=0;
     foreach ($items as $item => $values) {
 
